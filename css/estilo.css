@@ -1,0 +1,215 @@
+/* For id I use "#"/ for class I can use "."*/
+
+/* Barra de navegação transparente
+------------------------------------------------*/
+nav.navbar-transparente {
+	
+	background: rgba(0,0,0,0.9);
+}
+
+/*
+btn whatsapp
+---------------------------------------------------
+*/
+.whats{
+	z-index: 9999; /*fica sobre todas as imagens*/
+	position: fixed;
+	bottom: 10px;
+	right: 10px;
+	border-radius:30px;
+	background-color: #00A400;
+	border-color: green;
+}
+
+/*
+ CONTEUDOS HOME (NOSSOS SERVIÇOS)
+ ---------------------------------------------*/
+#home{
+  background: url(../imagens/fundo-caixa.png);
+}
+
+/* caixa
+---------------------------------------------*/
+.caixa{
+  margin-top: 10px;
+  text-align: center;
+}
+
+.caixa-conteudo{
+  font-size: 0.9em;
+  text-align: center;
+
+}
+
+h5{
+  font-size: 0.9em;
+  background: rgba(255,0,0,0.8) ;
+  color: #fff;
+  border-radius: 4px;
+  padding: 5px 5px;
+  text-align: center;
+}
+
+/* NOTÍCIAS
+--------------------------------------------------*/
+
+.box{
+  font-size: 0.9em;
+  background: rgba(0,0,0,0.9) ;
+  color: #fff;
+  border-radius: 4px;
+  padding: 5px 5px;
+  text-align: center;
+}
+
+footer{
+  background-color: #212529;
+}
+
+footer p a{
+  margin: 3px 5px;
+}
+
+a {
+    color:rgba(255,255,255,.5);
+}
+
+a:hover{
+  color: #fff;
+  text-decoration: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*/ Dispositivos extra small (telefones em modo retrato, com menos de 576px)
+@media (max-width: 575.98px) { 
+	body{
+		background: url(../imagens/capa-sm.png)no-repeat;
+
+		margin-top: 250px;
+		margin-left: 170px;
+	}
+ }*/
+
+/*/ Dispositivos small (telefones em modo paisagem, com 576px ou mais)
+@media (min-width: 576px) and (max-width: 767.98px) { 
+	body{
+		background: url(../imagens/capa-sm2.png)no-repeat;
+		margin-top: 350px;
+		margin-left: 260px;
+	}
+ }*/
+
+/*/ Dispositivos médios (tablets com 768px ou mais)
+@media (min-width: 768px) and (max-width: 991.98px) { 
+	body{
+		background: url(../imagens/capa-md.png) no-repeat;
+	}
+ }*/
+
+/*/ Dispositivos large (desktops com 992px ou mais)
+@media (min-width: 992px) and (max-width: 1199.98px) { 
+	body{
+		background: url();
+	}
+ }*/
+
+/* Dispositivos extra large (desktops grandes com 1200px ou mais)
+@media (min-width: 1200px) { 
+	body{
+		background: url(../imagens/capa.png);
+		margin-top: 550px;
+		margin-left: 550px;
+	}
+ }*/
+
+
+ /*
+
+<div col-sm>
+            <div class="card">
+              <h4 class="card-title text-center">HOMOLOGAÇÃO DA DOCUMENTAÇÃO</h4>
+              <p class="card-text">
+              </p>
+            </div>
+
+            <div class="card">
+              <h4 class="card-title">VISTO TEMPORÁRIO MERCOSUL</h4>
+              <p class="card-text">
+              </p>
+            </div>
+
+            <div class="card">
+              <h4 class="card-title">VISTO TEMPORÁRIO LEI 6894</h4>
+              <p class="card-text">
+              </p>
+            </div>
+
+          </div>
+
+          <div col-sm>
+            <div class="card">
+              <h4 class="card-title">VISTO PERMANENTE</h4>
+              <p class="card-text">
+                (CÃMBIO CATEGORIAL)
+              </p>
+            </div>
+
+            <div class="card">
+              <h4 class="card-title">CÉDULA PARAGUAIA </h4>
+              <p class="card-text">
+                TEMPORÁRIA E PERMANENTE
+              </p>
+            </div>
+
+            <div class="card">
+              <h4 class="card-title">LEGALIZAÇÕES EM GERAL</h4>
+              <p class="card-text">
+              </p>
+            </div>
+            
+          </div>
+
+          <div col-sm>
+            <div class="card">
+              <h4 class="card-title">APOSTILAMENTO DE HAIA</h4>
+              <p class="card-text">
+              </p>
+            </div>
+
+            <div class="card">
+              <h4 class="card-title">IMOBILIÁRIA ESTUDANTIL</h4>
+              <p class="card-text">
+              </p>
+            </div>
+
+            <div class="card">
+              <h4 class="card-title">HOMOLOGAÇÃO HOMOLOGAÇÃO</h4>
+              <p class="card-text">
+              </p>
+            </div>
+            
+          </div>
+
+ */
